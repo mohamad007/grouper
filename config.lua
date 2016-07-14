@@ -1,15 +1,15 @@
 return {
-	bot_api_key = '',
+	bot_api_key = '258054389:AAHupe2O_MzlBMvhPwgL5NomofHYrK_m8zY',
 	version = '3.1', -- /aupdate for v3.1
 	testing_mode = false,
 	admin = {
-		owner = 23646077,
+		owner = 208094932,
 		admins = {
-			[141956218] = true,
+			[208094932] = true,
 			[23646077] = true
 		}
 	},
-	log_chat = -1001057801239,
+	log_chat = -1001069133242,
 	channel = '@groupbutler_ch', --channel username with the '@'
 	help_group = 'https://telegram.me/joinchat/CHYUej9jFxFN12MQqrLnUg', --group link, not username!
 	languages = 'languages.lua',
