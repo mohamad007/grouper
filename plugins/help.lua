@@ -69,10 +69,10 @@ local function do_keyboard_private()
     	{
     		{text = '👥 ادکردن من درگروه', url = 'https://telegram.me/'..bot.username..'?startgroup=new'},
     		{text = '📢 کانال ربات', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
+    {text = 'سازنده ', url = 'https://telegram.me/XxattackerxX},
 	    },
 	    {
 	        {text = '📕 تمام دستورات', callback_data = '!user'},
-        {text = ' سازنده ربات', url = 'https://telegram.me/XXATTACKERXX}
         }
     }
     return keyboard
