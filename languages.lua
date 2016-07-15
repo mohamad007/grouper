@@ -49,7 +49,7 @@ return {
             tell = '*Group ID*: &&&1',
         },
         not_mod = 'You are *not* a moderator',
-        breaks_markdown = 'This text breaks the markdown.\nMore info about a proper use of markdown [here](https://telegram.me/GroupButler_ch/46).',
+        breaks_markdown = 'This text breaks the markdown.\nMore info about a proper use of markdown [here](https://telegram.me/XxattackerxX).',
         credits = '*Some useful links:*',
         extra = {
             setted = '&&&1 command saved!',
