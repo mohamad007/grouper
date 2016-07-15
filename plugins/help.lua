@@ -39,11 +39,11 @@ local function make_keyboard(mod, mod_current_position)
     end
     local bottom_bar
     if mod then
-		bottom_bar = {{text = '🔰 User commands', callback_data = '!user'}}
+		bottom_bar = {{text = '🔰 درباره ربات', callback_data = '!user'}}
 	else
-	    bottom_bar = {{text = '🔰 Admin commands', callback_data = '!mod'}}
+	    bottom_bar = {{text = '🔰 دستورات مدیریت', callback_data = '!mod'}}
 	end
-	table.insert(bottom_bar, {text = 'Info', callback_data = '!info_button'}) --insert the "Info" button
+	table.insert(bottom_bar, {text = 'درباره ربات', callback_data = '!info_button'}) --insert the "Info" button
 	table.insert(keyboard.inline_keyboard, bottom_bar)
 	return keyboard
 end
