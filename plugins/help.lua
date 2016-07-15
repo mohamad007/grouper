@@ -67,11 +67,11 @@ local function do_keyboard_private()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '👥 Add me to a group', url = 'https://telegram.me/'..bot.username..'?startgroup=new'},
-    		{text = '📢 Bot channel', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
+    		{text = '👥 ادکردن من درگروه', url = 'https://telegram.me/'..bot.username..'?startgroup=new'},
+    		{text = '📢 کانال ربات', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
 	    },
 	    {
-	        {text = '📕 All the commands', callback_data = '!user'}
+	        {text = '📕 تمام دستورات', callback_data = '!user'}
         }
     }
     return keyboard
